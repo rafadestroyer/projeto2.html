@@ -1,0 +1,227 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+    }
+    
+    /*Inicio - cabeçalho*/
+    header{
+        display: flex;
+        padding: 2rem;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        margin: 0;
+        top: 0;
+    }
+    
+    .menu ul{
+        display: flex;
+        margin-right: 4rem;
+    }
+    
+    .menu .Three{
+        border-style: solid black;
+    }
+    
+    header nav li{
+        list-style: none;
+        margin-left: 8rem;
+    }
+    
+    header nav li a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.3em;
+    }
+    
+    header nav li {
+        border-style: solid;
+        
+    }
+    
+    /*inicio da sessão ONE - primeira parte da landingPage*/
+    #One{
+        background-image: url(https://cdn.pixabay.com/photo/2018/12/08/00/56/wine-3862696_960_720.jpg);
+        padding: 22rem 4rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: black;
+        text-align: center;
+        font-size: 2em;
+        margin: -7.5rem 0.8rem ;
+        width:min-content;
+        
+    }
+    
+    #One hr{
+        width: 10rem;
+        margin-bottom: 30px;
+       
+    }
+    
+   .line{
+margin: 0 auto;
+
+   }
+    /*inicio da sessão TWO - segunda parte da landingPage*/
+    #Two{
+        background-color: rgba(128, 128, 128, 0.25);
+        padding: 18rem 17rem;
+    
+        /*padding: 18rem 17rem; esta medida não oculta os dados + não deixa a distancia superior do meu agrado. 
+        Como diminuir o espaço na parte acima do sub-título?*/
+        margin-top: 8.5rem;
+        
+    }
+    
+    #Two h2{
+        text-align: center;
+    }
+    
+    #Two hr{
+        width: 10rem;
+        margin-bottom: 30px;
+        /*como centralizar, colocar cor e deixar + grosso o hr?*/
+    }
+    
+    #Two div{
+        width: 20rem;
+        height: 11rem;
+        display: flex;
+       
+    }
+    
+    #Two .imgA{
+        display: block;
+        
+    }
+    
+    #Two div{
+        gap: 3rem;
+        
+    }
+    
+    #Two .imgA p{
+        background-color: white;
+        margin-top: -7px;
+        padding: 5rem;
+    }
+    
+    #Two .imgB{
+        display: block;
+    }
+    
+    #Two .imgB p{
+        background-color: white;
+        margin-top: -7px;
+        padding: 5rem;
+    }
+    
+    #Two .imgC{
+        display: block;
+    }
+    
+    #Two .imgC p{
+        background-color: white;
+        margin-top: -7px;
+        padding: 5rem;
+    }
+    
+    
+    /*inicio da sessão THREE - terceira parte da landingPage*/
+    #Three{
+        display: inline;
+    }
+    
+    #Three #texto{
+        padding: 8rem;
+        font-size: 1.4rem;
+    }
+    
+    #Three #texto h3{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    #Three #texto hr{
+        width: 2em;
+        margin-bottom: 30px;
+    }
+    
+    
+    #Three #texto p{
+        text-align: justify;
+        
+    }
+    
+    /*inicio da sessão FOUR - quarta parte da landingPage*/
+    #Four{
+        background-color: rgba(128, 128, 128, 0.25);
+        padding: 7rem 9rem;
+        text-align: center;
+    }
+    
+    
+    #Four h2{
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+    
+    #Four h3{
+        margin-bottom: 20px;
+        
+    }
+    
+    #Four input{
+        width: 25rem;
+        height: 3rem;
+        margin-left: 15px;
+        background-color: rgb(232, 229, 229);
+        border-color: white;
+        
+    }
+    
+    #Four ::placeholder{
+        margin-left: 10rem;
+    }
+    
+    #Four button{
+        margin-top: 20px;
+        width: 13rem;
+        height: 3rem;
+        background-color: rgba(153, 153, 153, 0.012);
+        
+    }
+    
+    
+    /*FOOTER - rodapé*/
+    footer{
+        display: flex;
+        padding: 5rem;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    footer .redeSocial{
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    
+    footer .menu {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    footer .menu li{
+        list-style: none;
+    
+    }
+    
+    footer .menu a{
+        text-decoration: none;
+        color: black;
+    }
