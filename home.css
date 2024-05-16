@@ -44,7 +44,7 @@
     /*inicio da sessão ONE - primeira parte da landingPage*/
     #One{
         background-image: url(https://cdn.pixabay.com/photo/2018/12/08/00/56/wine-3862696_960_720.jpg);
-        padding: 22rem 4rem;
+        padding: 33rem ;
         background-repeat: no-repeat;
         background-size: cover;
         color: black;
@@ -52,7 +52,10 @@
         font-size: 2em;
         margin: -7.5rem 0.8rem ;
         width:min-content;
-        
+       
+        background-position: center bottom;
+        background-size: cover;
+
     }
     
     #One hr{
