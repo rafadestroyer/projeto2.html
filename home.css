@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif
     }
     
-    /*Inicio - cabeçalho*/
+    
     header{
         display: flex;
         padding: 2rem;
@@ -41,7 +41,7 @@
         
     }
     
-    /*inicio da sessão ONE - primeira parte da landingPage*/
+    
     #One{
         background-image: url(https://cdn.pixabay.com/photo/2018/12/08/00/56/wine-3862696_960_720.jpg);
         padding: 33rem ;
@@ -68,13 +68,12 @@
 margin: 0 auto;
 
    }
-    /*inicio da sessão TWO - segunda parte da landingPage*/
+    
     #Two{
         background-color: rgba(128, 128, 128, 0.25);
         padding: 18rem 17rem;
     
-        /*padding: 18rem 17rem; esta medida não oculta os dados + não deixa a distancia superior do meu agrado. 
-        Como diminuir o espaço na parte acima do sub-título?*/
+        
         margin-top: 8.5rem;
         
     }
@@ -86,7 +85,7 @@ margin: 0 auto;
     #Two hr{
         width: 10rem;
         margin-bottom: 30px;
-        /*como centralizar, colocar cor e deixar + grosso o hr?*/
+        
     }
     
     #Two div{
@@ -133,7 +132,7 @@ margin: 0 auto;
     }
     
     
-    /*inicio da sessão THREE - terceira parte da landingPage*/
+   
     #Three{
         display: inline;
     }
@@ -199,7 +198,7 @@ margin: 0 auto;
     }
     
     
-    /*FOOTER - rodapé*/
+    
     footer{
         display: flex;
         padding: 5rem;
